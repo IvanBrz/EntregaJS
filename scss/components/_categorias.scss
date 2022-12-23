@@ -1,0 +1,61 @@
+
+@import "../base/variables";
+
+/*!---------------------PAGINA CATEGORIAS------------------------*/
+
+
+main{
+    .titulocat{
+        font-family: sss;
+        font-size: 50px;
+        text-align: center;
+        color: #FFFFFF;
+        background: #912C22;
+        text-shadow: 0 0 10px #FFFFFF;
+        color: #FFFFFF;
+        background: #232323;
+    
+        animation-name: slidefromleft;
+        animation-duration: 1s;
+        animation-timing-function: ease-in-out;
+    }
+    .dropdown{
+        button{
+            background: none;
+            border: none;
+            font-size: 25px;
+        }
+    }
+    .juegoscat3{
+        @include flex-cat (flex, space-evenly, wrap);
+        margin-top: 100px;
+            div{
+                color: rgb(0, 0, 0);
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                font-size: 20px;
+                text-align: center;
+                background-color: rgba(0, 0, 0, 0.497);
+                text-decoration: none;
+                padding: 3px;
+                margin: 20px;
+                border: 2px solid rgb(0, 0, 0);
+                border-radius: 10px;
+                transition: 1s;
+                    &:hover{
+                        background-color: rgb(189, 19, 19);
+                        transform:scale(1.1);
+                    }
+                    h3,a:hover{
+                        color: white;
+                    }
+            }
+    }
+    .carousel{
+        margin-top: 100px;
+        padding: 100px;
+    }
+    .paginas{
+        display: flex;
+        justify-content: center;
+    }
+}

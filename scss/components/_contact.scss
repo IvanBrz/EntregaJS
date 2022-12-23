@@ -1,0 +1,35 @@
+
+
+
+
+/*!---------------------PAGINA CONTACTENOS-----------------------*/
+
+
+main{
+    .tituloform{
+        font-family: sss;
+        font-size: 50px;
+        text-align: center;
+        color: #FFFFFF;
+        background: #912C22;
+        text-shadow: 0 0 10px #FFFFFF;
+        color: #FFFFFF;
+        background: #232323;
+        border: #058a9e 3px solid;
+    
+        animation-name: slidefromleft;
+        animation-duration: 1s;
+        animation-timing-function: ease-in-out;
+    }
+    .maincontact{
+        display: flex;
+        flex-direction: column;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        background-color: rgba(0, 0, 0, 0.523);
+        text-align: center;
+        font-size: 32px;
+            select{
+                block-size: 30px;
+            }
+    }
+}

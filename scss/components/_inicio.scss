@@ -1,0 +1,166 @@
+
+@import "../base/variables";
+
+/*!------------------------PAGINA INDEX--------------------------*/
+
+header{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+        .hero{
+            text-decoration: none;
+            text-align: center;
+            font-family: headerfont;
+            color: $color-principal;
+                h1{
+                    font-size: 65px;
+                    font-weight: bold;
+                    &:hover{
+                        color: $color-principal;
+                    }
+                }
+        }
+        nav{
+            width: 1440px;
+            ul{
+                list-style: none;
+                display: flex;
+                justify-content: center;
+                margin: 30px;
+                align-items: flex-start;
+                font-size: 25px;
+                font-family: 'Roboto Condensed', sans-serif;
+                padding-left: 0%;
+                a{
+                    text-decoration: none; 
+                    color: $color-ul;
+                    &:hover{
+                        color: $color-principal;
+                    } 
+                }
+            }
+        }
+}
+
+main{
+    .bienvenidos{
+        font-family: sss;
+        font-size: 50px;
+        text-align: center;
+        color: #FFFFFF;
+        text-shadow: 0 0 10px #FFFFFF;
+        color: #FFFFFF;
+        background: #232323;
+    
+        animation-name: slidefromleft;
+        animation-duration: 1s;
+        animation-timing-function: ease-in-out;
+    }
+    .juegos3{
+        width: 100%;
+        margin-top: 30px;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 20px;
+            div{
+                color: rgb(0, 0, 0);
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                font-size: 15px;
+                text-align: center;
+                background-color: rgba(0, 0, 0, 0.497);
+                text-decoration: none;
+                border: 2px solid rgb(0, 0, 0);
+                border-radius: 10px;
+                margin-top: 50px;
+                padding: 3px;
+                transition: 1s;
+                &:hover{
+                    background-color: rgb(8, 214, 255);
+                    transform: scale(1.1);
+                }
+                img{
+                    width: 100%;
+                    height: 65%;
+                    object-fit: cover;
+                }
+            }
+    }
+    .juegodelacontainer{
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        text-align: center;
+        flex-wrap: wrap;
+        background-color: rgba(0, 0, 0, 0.378);
+        padding: 10px;
+        margin: 10px;
+        .juegodela{
+            .titulovideo{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                font-size: 30px;
+                color: yellow;
+            }
+            a{
+                font-family: sss;
+                font-size: 35px;
+                text-decoration: none;
+                color: aqua;
+            }
+            span{
+                color: yellow;
+            }
+        }
+    }
+}
+
+
+.carrito{
+    position: fixed;
+    right: 0%;
+    top: 50%;
+    border: 4px solid rgb(0, 0, 0);
+    border-radius: 100%;
+    background-color: rgba(7, 171, 182, 0.69);
+    font-size: 20px;
+    padding: 5px;
+    box-shadow: 1px -1px 29px 0px rgba(0,0,0,0.78);
+    -webkit-box-shadow: 1px -1px 29px 0px rgba(0,0,0,0.78);
+    -moz-box-shadow: 1px -1px 29px 0px rgba(0,0,0,0.78);
+        &:hover{
+            background-color: aqua;
+        }
+        a{
+            text-decoration: none;
+        }
+}
+
+footer{
+    ul{
+        padding-left: 0%;
+        li{
+            a{
+                display: flex;
+                justify-content: center;
+                text-decoration: none;
+                font-size: 20px;
+                font-family: 'Roboto Condensed', sans-serif;
+                color: white;
+                &:hover{
+                    color: #37dfce;
+                }
+            }
+        }
+    }
+    div{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+}
+
+
