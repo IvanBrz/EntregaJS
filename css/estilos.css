@@ -327,6 +327,69 @@ main .paginas {
   display: flex;
   justify-content: center; }
 
+/*--------------------JAVASCRIPT-----------------*/
+#all-app {
+  width: 100%;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border: 2px solid rgba(26, 26, 93, 0.873);
+  background-image: url(../img/fondonuevo3.png);
+  background-repeat: no-repeat;
+  background-size: cover; }
+  #all-app h2 {
+    padding: 5px;
+    font-family: sss;
+    font-size: 50px;
+    text-align: center;
+    color: #FFFFFF;
+    text-shadow: 0 0 10px #FFFFFF;
+    color: #FFFFFF;
+    background: #232323;
+    background-color: rgba(0, 0, 0, 0.685); }
+
+#add-all-form button {
+  padding: 3px;
+  background-color: #00eaff4d; }
+
+#all-list {
+  list-style: none;
+  padding: 0; }
+
+#all-list li {
+  align-items: center;
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: #00ffe562; }
+
+#all-list li button {
+  border: 1px solid white;
+  background-color: red;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  height: 1.5em;
+  margin: 0 1em 0 0;
+  width: 1.5em; }
+
+#all-list li button::after {
+  content: "-"; }
+
+#all-list li input {
+  height: 1.5em;
+  margin: 0 1em 0 0;
+  width: 1.5em; }
+
+#searcher {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1em; }
+
 /*!--------------------PAGINA OFERTAS--------------------------*/
 main .titulodeofertas {
   font-family: sss;
